@@ -290,7 +290,7 @@ img {
 
 
 .video {
-  width: 100%%;
+  width: 100%;
   margin: 0 0 24px 0;
 }
 .video__container {
@@ -375,7 +375,7 @@ h1 {
 }
 .navigation a {
   text-decoration: none;
-  border-bottom: 1px solid #92ABCD;
+  /*border-bottom: 1px solid #92ABCD;*/
 }
 
 a.twitter-nav-link {
@@ -456,7 +456,8 @@ p, ul.text-list {
 
 .section {
   width: 100%;
-  margin-top: 176px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .docs {
   margin-top: 60px;
