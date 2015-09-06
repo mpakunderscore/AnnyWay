@@ -1,0 +1,82 @@
+﻿body {
+    /*font-family: 'Lato', Calibri, Arial, sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #282B30;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga", "kern";
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 1;
+    margin: 0;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.column {
+    width: 80%
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+}
+
+.head {
+    background: #EEE;
+    padding-top: 40px;
+}
+
+.gallery {
+    background: #EEE;
+    padding-bottom: 40px;
+}
+
+.order {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.contact p {
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #3169B3;
+}
+
+a:hover {
+    color: #C00;
+}
+
+.lb-container {
+    padding: 0;
+}
+

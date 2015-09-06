@@ -1,133 +1,26 @@
-<!DOCTYPE html>
-<html lang="en" prefix="og:http://ogp.me/ns#" debug="true">
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta charset="utf-8">
-
     <title>AnnyWay</title>
-
-    <meta name="description" content="">
-    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-
-    <link rel="canonical" href="http://AnnyWay.space">
-
-    <meta property="og:url" content="http://AnnyWay.space">
-    <meta property="og:title" content="AnnyWay">
-    <meta property="og:description" content="">
-    <!--<meta property="og:image" content="">-->
-
-    <link rel="shortcut icon" href="assets/favicon.ico">
+    <meta charset="utf-8" />
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-    <link href="assets/main.css" rel="stylesheet"/>
-    <link href="assets/ui.css" rel="stylesheet"/>
+    <link href="bower_components/lightbox/dist/css/lightbox.css" rel="stylesheet" />
 
-    <!--<script src="assets/main.js"></script>-->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/freewall/freewall.js"></script>
+    <script src="bower_components/lightbox/dist/js/lightbox.min.js"></script>
 
-    <!--[if lt IE 9]>
-    <script>
-        document.createElement('figure');
-    </script>
-    <![endif]-->
+    <link href="css/index.css" rel="stylesheet" />
+
+    <script src="scripts/config.js"></script>
+    <script src="scripts/controllers/imagePreviewsController.js"></script>
+    <script src="scripts/directives/onLoadDirective.js"></script>
 </head>
-
-<body>
-
-<div class="">
-
-    <!--Lang-->
-    <div class="lang"><a href="" class="selected">RU</a> / <a href="">EN</a></div>
-
-</div>
-
-<div class="section section--head">
-
-    <!--Title-->
-    <div class="row row--heading">
-        <h1>Anny way</h1>
-        <p>Do what you can, with what you have, where you are.</p>
-    </div>
-
-    <!--Gallery-->
-    <div class="row">
-        <div id="demo-test-gallery" class="demo-gallery" data-pswp-uid="7">
-
-            <a href="gallery/тукан1.jpg" data-size="1600x1600"
-               data-author="" class="demo-gallery__img--main">
-                <img src="gallery/тукан1.jpg" alt=""/>
-                <figure>This is dummy caption.</figure>
-            </a>
-
-            <a href="gallery/хамелеон9.jpg" data-size="1600x1067"
-               data-author="" class="">
-                <img src="gallery/хамелеон9.jpg" alt=""/>
-                <figure>This is dummy caption. It has been placed here solely to demonstrate the look and feel of
-                    finished, typeset text.
-                </figure>
-            </a>
-
-
-            <a href="gallery/гусеница11.jpg" data-size="1600x1067"
-               data-author="Ales Krivec">
-                <img src="gallery/гусеница11.jpg" alt=""/>
-                <figure>This is dummy caption. It is not meant to be read.</figure>
-            </a>
-
-
-            <a href="gallery/рыба.jpg" data-size="1600x1067"
-               data-author="">
-                <img src="gallery/рыба.jpg" alt=""/>
-                <figure>Dummy caption. It's Greek to you. Unless, of course, you're Greek, in which case, it really
-                    makes no sense.
-                </figure>
-            </a>
-
-            <a href="gallery/помидор8.jpg" data-size="1600x1067"
-               data-author="">
-                <img src="gallery/помидор8.jpg" alt=""/>
-                <figure>It's a dummy caption. He who searches for meaning here will be sorely disappointed.</figure>
-            </a>
-
-            <a href="gallery/кусочекночи1.jpg" data-size="1600x1067"
-               data-author="">
-                <img src="gallery/кусочекночи1.jpg" alt=""/>
-                <figure>It's a dummy caption. He who searches for meaning here will be sorely disappointed.</figure>
-            </a>
-
-            <a href="gallery/дракоша1.2.jpg" data-size="1600x1067"
-               data-author="">
-                <img src="gallery/дракоша1.2.jpg" alt=""/>
-                <figure>It's a dummy caption. He who searches for meaning here will be sorely disappointed.</figure>
-            </a>
-
-
-        </div>
-    </div>
-
-</div>
-
-<div class="navigation">
-    <!--Connect-->
-    <div class="row row--nav"><a href="mailto:info@AnnyWay.space">Написать мне письмо</a></div>
-</div>
-
-<div class="section">
-
-    <!--FAQ-->
-    <div class="row title-block">
-        <h1>Как сделать заказ</h1>
-        <p>
-            Придумайте что именно вы хотите получить и опишите это.
-            Чем конкретнее и необычнее - тем лучше :)
-            Отправьте мне на почту <a>info@annyway.space</a> письмо с описанием и я отвечу!
-        </p>
-    </div>
-
-</div>
-
-<script type="text/javascript">
-</script>
-
+<body ng-app="app">
+    <ui-view />
 </body>
 </html>
