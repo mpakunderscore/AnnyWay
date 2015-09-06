@@ -45,10 +45,12 @@ h1 {
 
 .head {
     background: #EEE;
+    padding-top: 40px;
 }
 
 .gallery {
     background: #EEE;
+    padding-bottom: 40px;
 }
 
 .contact {
