@@ -26,7 +26,7 @@
         $scope.images = [];
 
         var keys = [];
-        var count = 47;
+        var count = 47; //47
         for (var i = 1; i <= count; i++)
             keys.push(i);
 

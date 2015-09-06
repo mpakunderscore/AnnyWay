@@ -53,6 +53,11 @@ h1 {
     padding-bottom: 40px;
 }
 
+.order {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .contact {
     font-size: 22px;
     line-height: 28px;
@@ -60,5 +65,18 @@ h1 {
 }
 .contact p {
     color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #3169B3;
+}
+
+a:hover {
+    color: #C00;
+}
+
+.lb-container {
+    padding: 0;
 }
 
